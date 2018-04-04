@@ -1,0 +1,12 @@
+clear all;clc;
+imgpath='E:\Camouflage Dataset\CamouflageData\img\';
+gtpath='E:\Camouflage Dataset\label\';
+respath1='E:\FCNCam\matconvnet-DDCN\result\DDCN\';
+respath2='E:\FCNCam\matconvnet-DDCN\result\Final\';
+respath3='E:\FCNCam\matconvnet-DDCN\result\DDCN\';
+respath4='E:\FCNCam\matconvnet-DDCN\result\Final\';
+imfile=dir([imgpath,'*.png']);
+for i=1:length(imfile)
+    name=imfile(i).name;
+    resimg=
+end
